@@ -35,11 +35,20 @@ smiley() {
 # See git-aware-prompt/colors.sh or https://github.com/jimeh/git-aware-prompt for color help
 export PS1="\[$txtrst\]\u@ \$(smiley) \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\] \w\e[0m\n\$ "
 
-#### BRIAN'S ALIASES
+#### BRIAN'S ALIASES AND FUNCTIONS
 alias pbsha="git rev-parse --short HEAD | tee >(tr -d '\040\011\012\015' | pbcopy)"
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -al'
+function bigbanner {
+  echo "########################################################################"
+  echo "########################################################################"
+  echo "##### $@"
+  echo "########################################################################"
+  echo "########################################################################"
+  echo ""
+}
+alias bb='bigbanner'
 
 #### rainbow fortune
 fortune -s | cowsay -f stegosaurus | lolcat
