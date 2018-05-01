@@ -13,6 +13,10 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 
+#### Bash completions
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
+
 #### Pretty pretty prompt!
 # Setup git-aware-prompt
 export GITAWAREPROMPT=${DIR}/git-aware-prompt
