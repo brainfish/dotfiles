@@ -1,3 +1,9 @@
+#### DEPENDENCIES
+# fortune
+# lolcat
+# cowsay
+# terminal-notifier
+
 #### Figure out where this script is installed and set it to DIR
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
