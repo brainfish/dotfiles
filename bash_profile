@@ -2,7 +2,9 @@
 # fortune
 # lolcat
 # cowsay
-# terminal-notifier
+# figlet
+# terminal-notifier (brew)
+# git-completion (brew)
 
 #### Figure out where this script is installed and set it to DIR
 SOURCE="${BASH_SOURCE[0]}"
@@ -55,6 +57,21 @@ function bigbanner {
   echo ""
 }
 alias bb='bigbanner'
+function bbb {
+  bigbanner $@ | lolcat
+}
+function bbd {
+  bigbanner $@ | cowsay -f dragon | lolcat
+}
+function BBB {
+  figlet -f jazmine $@ | lolcat
+}
+function notif-tableflip {
+  terminal-notifier -title "$1" -message "$2" -contentImage ${DIR}/images/tableflip_trans_400x400.png -activate com.apple.Terminal
+}
+function notif-terminal-generic {
+  terminal-notifier -title "$1" -message "$2" -activate com.apple.Terminal
+}
 
 #### rainbow fortune
 fortune -s | cowsay -f stegosaurus | lolcat
