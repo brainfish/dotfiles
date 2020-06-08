@@ -1,0 +1,62 @@
+#### DEPENDENCIES
+# fortune
+# lolcat
+# cowsay
+# figlet
+# terminal-notifier (brew)
+# git-completion (brew)
+
+#### Editor etc
+export EDITOR='vim'
+
+
+#### Setup colorization
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+
+#### PROMPT
+# smiley face indicator for previous command exit code
+smiley() {
+    ret_val=$?
+    if [ "$ret_val" = "0" ]
+    then
+        echo ":)"
+    else
+        echo ":( ($ret_val)"
+    fi
+}
+
+
+#### BRIAN'S ALIASES AND FUNCTIONS
+alias pbsha="git rev-parse --short HEAD | tee >(tr -d '\040\011\012\015' | pbcopy)"
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -al'
+function bigbanner {
+  echo "########################################################################"
+  echo "########################################################################"
+  echo "##### $@"
+  echo "########################################################################"
+  echo "########################################################################"
+  echo ""
+}
+alias bb='bigbanner'
+function bbb {
+  bigbanner $@ | lolcat
+}
+function bbd {
+  bigbanner $@ | cowsay -f dragon | lolcat
+}
+function BBB {
+  echo $@ | figlet -f jazmine | lolcat
+}
+function notif-tableflip {
+  terminal-notifier -title "$1" -message "$2" -contentImage ${DIR}/images/tableflip_trans_400x400.png -activate com.apple.Terminal
+}
+function notif-terminal-generic {
+  terminal-notifier -title "$1" -message "$2" -activate com.apple.Terminal
+}
+
+#### rainbow fortune
+fortune -s | cowsay -f stegosaurus | lolcat
