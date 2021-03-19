@@ -60,3 +60,18 @@ function notif-terminal-generic {
 
 #### rainbow fortune
 fortune SY0_501.fortune | cowsay -f stegosaurus | lolcat
+#echo "Fix fortune. Soon." | cowsay -f stegosaurus | lolcat
+#fortune -s | cowsay -f stegosaurus | lolcat
+
+#### personal MOTD
+MOTD=~/.MOTD
+if [ -f "$MOTD" ]; then
+  MDV_PATH=$(which mdv)
+  if [ -x "$MDV_PATH" ] ; then
+    mdv "$MOTD"
+  else
+    echo "no mdv"
+    cat "$MOTD"
+  fi
+fi
+
