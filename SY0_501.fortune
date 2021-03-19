@@ -1,0 +1,2009 @@
+3DES
+
+Triple Digital Encryption Standard. A symmetric algorithm used to encrypt data and provide confidentiality. It is a block cipher that encrypts data in 64-bit blocks.
+%
+AAA
+
+Authentication, authorization, and accounting. A group of technologies used in remote access systems. Authentication verifies a user's identification. Authorization determines if a user should have access. Accounting tracks a user's access with logs. Sometimes called AAAs of security.
+%
+ABAC
+
+Attribute-based access control. An access control model that grants access to resources based on attributes assigned to subjects and objects.
+%
+acceptable use policy (AUP)
+
+A policy defining proper system usage and the rules of behavior for employees. It often describes the purpose of computer systems and networks, how users can access them, and the responsibilities of users when accessing the systems.
+%
+access point (AP)
+
+A device that connects wireless clients to wireless networks. Sometimes called wireless access point (WAP).
+%
+accounting
+
+The process of tracking the activity of users and recording this activity in logs. One method of accounting is audit logs that create an audit trail.
+%
+ACLs (access control lists)
+
+Lists of rules used by routers and stateless firewalls. These devices use the ACL to control traffic based on networks, subnets, IP addresses, ports, and some protocols.
+%
+active reconnaissance
+
+A penetration testing method used to collect information. It sends data to systems and analyzes responses to gain information on the target. Compare with passive reconnaissance.
+%
+ad hoc
+
+A connection mode used by wireless devices without an AP. When wireless devices connect through an AP, they are using infrastructure mode.
+%
+administrative controls
+
+Security controls implemented via administrative or management methods.
+%
+AES (Advanced Encryption Standard)
+
+A strong symmetric block cipher that encrypts data in 128-bit blocks. AES can use key sizes of 128 bits, 192 bits, or 256 bits.
+%
+affinity
+
+A scheduling method used with load balancers. It uses the client's IP address to ensure the client is redirected to the same server during a session.
+%
+aggregation switch
+
+A switch used to connect multiple switches together into a network. Switches connect to the aggregation switch and it connects to a router.
+%
+agile
+
+A software development life cycle model that focuses on interaction between customers, developers, and testers. Compare with waterfall.
+%
+AH (authentication header)
+
+An option within IPsec to provide authentication and integrity.
+%
+airgap
+
+A physical security control that provides physical isolation. Systems separated by an airgap don't typically have any physical connections to other systems.
+%
+ALE (annualized loss expectancy)
+
+The expected loss for a year. It is used to measure risk with ARO (annual rate of occurrence) and SLE (single loss expectancy) in a quantitative risk assessment. The calculation is SLE x ARO = ALE.
+%
+amplification attack
+
+An attack that increases the amount of bandwidth sent to a victim.
+%
+anomaIy
+
+A type of monitoring on intrusion detection and intrusion prevention systems. It detects attacks by comparing operations against a baseline. It is also known as heuristic detection.
+%
+ANT
+
+A proprietary wireless protocol used by some mobile devices. It is not an acronym.
+%
+antispoofing
+
+A method used on some routers to protect against spoofing attacks. A common implementation is to implement specific ru|es to block certain traffic.
+%
+antivirus
+
+Software that protects systems from malware. Although it is called antivirus software, it protects against most malware, including viruses, Trojans, worms, and more.
+%
+application blacklist
+
+A list of applications that a system blocks. Users are unable to install or run any applications on the list.
+%
+application cell
+
+Also known as application containers. A virtualization technology that runs services or applications within isolated application cells (or containers). Each container shares the kernel of the host.
+%
+application whitelist
+
+A list of applications that a system allows. Users are only able to install or run applications on the list.
+%
+APT (Advanced persistent threat) [crew]
+
+A group that has both the capability and intent to launch sophisticated and targeted attacks.
+%
+ARO (annualized rate of occurrence)
+
+The number of times a loss is expected to occur in a year. It is used to measure risk with ALE and SLE in a quantitative risk assessment.
+%
+arp
+
+A command-line tool used to show and manipulate the Address Resolution Protocol (ARP) cache. *
+%
+ARP poisoning
+
+An attack that misleads systems about the actual MAC address of a system.
+%
+asset value
+
+An element of a risk assessment. It identifies the value of an asset and can include any product, system, resource, or process. The value can be a specific monetary value or a subjective value.
+%
+asymmetric encryption
+
+A type of encryption using two keys to encrypt and decrypt data. It uses a public key and a private key. Compare with symmetric encryption.
+%
+attestation
+
+A process that checks and validates system files during the boot process. TPMs sometimes use remote attestation, sending a report to a remote system for attestation.
+%
+audit trail
+
+A record of events recorded In one or more logs. When security professionals have access to all the logs, they can re-create the events that occurred leading up to a security incident.
+%
+authentication
+
+The process that occurs when a user proves an identity, such as with a password.
+%
+authorization
+
+The process of granting access to resources for users who prove their identity (such as with a username and password) based on their proven identity.
+%
+availability
+
+One of the three main goals of information security known as the CIA security triad. Availability ensures that systems and data are up and operational when needed. Compare with confidentiality and integrity.
+%
+backdoor
+
+An alternate method of accessing a system. Malware often adds a backdoor into a system after it infects it.
+%
+background check
+
+A check into a person's history, typically to determine eligibility for a job.
+%
+banner grabbing
+
+A method used to gain information about a remote system. It identifies the operating system and other details on the remote system.
+%
+bcrypt
+
+A key stretching algorithm. It is used to protect passwords. Bcrypt salts passwords with additional bits before encrypting them with Blowfish. This thwarts rainbow table attacks.
+%
+BIOS
+
+Basic Input/Output System. A computer's firmware used to manipulate different settings such as the date and time, boot drive, and access password. UEFI is the designated replacement for BIOS.
+%
+birthday [theorem]
+
+A password attack named after the birthday paradox in probability theory. The paradox states that for any random group of 23 people, there is a 50 percent chance that 2 of them have the same birthday.
+%
+black box test
+
+A type of penetration test. Testers have zero knowledge of the environment prior to starting the test. Compare with gray box test and white box test.
+%
+block cipher
+
+An encryption method that encrypts data in fixed-sized blocks. Compare with stream cipher.
+%
+Blowfish
+
+A strong symmetric block cipher. It encrypts data in 64-bit blocks and supports key sizes between 32 and 448 bits. Compare with Twofish.
+%
+bluejacking
+
+An attack against Bluetooth devices. It is the practice of sending unsolicited messages to nearby Bluetooth devices.
+%
+bluesnarfing
+
+An attack against Bluetooth devices. Attackers gain unauthorized access to Bluetooth devices and can access all the data on the device.
+%
+bollards
+
+Short vertical posts that act as a barricade. Bollards block vehicles but not people.
+%
+bots
+
+Software robots that function automatically. A botnet is a group of computers that are joined together. Attackers often use malware to join computers to a botnet, and then use the botnet to launch attacks.
+%
+BPA (business partners agreement)
+
+A written agreement that details the relationship between business partners, including their obligations toward the partnership.
+%
+bridge
+
+A network device used to connect multiple networks together. It can be used instead of a router in some situations.
+%
+brute force
+
+A password attack that attempts to guess a password. Online brute force attacks guess passwords of online systems. Offline attacks guess passwords contained in a file or database.
+%
+buffer overflow
+
+An error that occurs when an application receives more input, or different input, than it expects. It exposes system memory that is normally inaccessible.
+%
+business impact analysis (BIA)
+
+A process that helps an organization identify critical systems and components that are essential to the organization's success.
+%
+BYOD
+
+Bring your own device. A mobile device deployment model. Employees can connect their personally owned device to the network. Compare with COPE and CYOD.
+%
+CA (certificate authority)
+
+Certificate Authority. An organization that manages, Issues, and signs certificates. A CA is a main element of a PKI.
+%
+CAC (Common Access Card)
+
+A specialized type of smart card used by the US. Department of Defense. It includes photo identification and provides confidentiality, integrity, authentication, and non-repudiation.
+%
+captive portal
+
+A technical solution that forces wireless clients using web browsers to complete a process before accessing a network. It is often used to ensure users agree to an acceptable use policy or pay for access.
+%
+carrier unlocking
+
+The process of unlocking a mobile phone from a specific cellular provider.
+%
+CBC (cipher block chaining)
+
+A mode of operation used for encryption that effectively converts a block cipher into a stream cipher. It uses an IV for the first block and each subsequent block is combined with the previous block.
+%
+CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)
+
+An encryption protocol based on AES and used with WPA2 for wireless security. It is more secure than TKIP, which was used with the original release of WPA.
+%
+CER (Canonical Encoding Rules)
+
+A base format for PKI certificates They are binary encoded files. Compare with DER.
+%
+certificate
+
+A digital file used for encryption, authentication, digital signatures, and more. Public certificates include a public key used for asymmetric encryption.
+%
+certificate chaining
+
+A process that combines all certificates within a trust model. It includes all the certificates in the trust chain from the root CA down to the certificate issued to the end user.
+%
+chain of custody
+
+A process that provides assurances that evidence has been controlled and handled properly after collection. Forensic experts establish a chain of custody when they first collect evidence.
+%
+change management
+
+The process used to prevent unauthorized changes. Unauthorized changes often result in unintended outages.
+%
+CHAP (Challenge Handshake Authentication Protocol)
+
+An authentication mechanism where a server challenges a client. Compare with MS-CHAPv2 and PAP.
+%
+chroot
+
+A Linux command used to change the root directory. It is often used for sandboxing.
+%
+ciphertext
+
+The result of encrypting plaintext. Ciphertext is not in an easily readable format until it ls decrypted.
+%
+clean desk policy
+
+A security policy requiring employees to keep their areas organized and free of papers. The goal is to reduce threats of security incidents by protecting sensitive data.
+%
+clickjacking
+
+An attack that tricks users into clicking something other than what they think they're clicking.
+%
+cloud access security broker (CASB)
+
+A software tool or service that enforces cloud-based security requirements. It is placed between the organization's resources and the cloud, monitors all network traffic, and can enforce security policies.
+%
+cloud deployment models
+
+Cloud model types that identify who has access to cloud resources. Public clouds are for any organization. Private clouds are for a single organization. Community clouds are shared among community organizations. A hybrid cloud is a combination of two or more clouds.
+%
+code signing
+
+The process of assigning a certificate to code. The certificate includes a digital signature and validates the code.
+%
+cold site
+
+An alternate location for operations. A cold site will have power and connectivity needed for activation, but little else. Compare with hot site and warm site.
+%
+collision
+
+A hash vulnerability that can be used to discover passwords. A hash collision occurs when two different passwords create the same hash.
+%
+compensating controIs
+
+Security controls that are alternative controls used when a primary security control is not feasible.
+%
+compiled code
+
+Code that has been optimized by an application and converted into an executable file. Compare with runtime code.
+%
+confidential data
+
+Data meant to be kept secret among a certain group of people. As an example, salary data is meant to be kept secret and not shared with everyone within a company.
+%
+confidentiality
+
+One of the three main goals of information security known as the CIA security triad. Confidentiality ensures that unauthorized entities cannot access data. Encryption and access controls help protect against the loss of confidentiality. Compare with availability and integrity.
+%
+configuration compliance scanner
+
+A type of vulnerability scanner that verifies systems are configured correctly. It will often use a file that identifies the proper configuration for systems.
+%
+confusion
+
+A cryptography concept that indicates ciphertext is significantly different than plaintext.
+%
+containerization
+
+A method used to isolate applications in mobile devices. It isolates and protects the application, including any data used by the application.
+%
+context-aware authentication
+
+An authentication method using multiple elements to authenticate a user and a mobile device. It can include identity, geolocation, the device type, and more.
+%
+continuity of operations planning
+
+The planning process that identifies an alternate location for operations after a critical outage. It can include a hot site, cold site, or warm site.
+%
+control diversity
+
+The use of different security control types, such as technical controls, administrative controls, and physical controls. Compare with vendor diversity.
+%
+controller-based AP
+
+An AP that is managed by a controller. Also called a thin AP. Compare with fatAP.
+%
+COPE
+
+Corporate-owned, personally enabled. A mobile device deployment model. The organization purchases and issues devices to employees. Compare with BYOD and CYOD.
+%
+corrective controls
+
+Security controls that attempt to reverse the impact of a security incident.
+%
+CRL
+
+Certificate revocation list. A list of certificates that a CA has revoked. Certificates are commonly revoked if they are compromised, or issued to an employee who has left the organization.
+%
+crossover error rate
+
+The point where the false acceptance rate (FAR) crosses over with the false rejection rate (FRR). A lower CER indicates a more accurate biometric system.
+%
+cross-site request forgery (XSRF)
+
+A web application attack. XSRF attacks trick users into performing actions on web sites, such as making purchases, without their knowledge.
+%
+cross-site scripting (XSS)
+
+A web application vulnerability. Attackers embed malicious HTML or JavaScript code into a web site's code, which executes when a user visits the site.
+%
+crypto-malware
+
+A type of ransomware that encrypts the user's data.
+%
+crypto moduIe
+
+A set of hardware, software, and/or firmware that implements cryptographic functions. Compare with crypto service provider.
+%
+crypto service provider
+
+A software library of cryptographic standards and algorithms. These libraries are typically distributed within crypto modules.
+%
+CSR
+
+Certificate signing request. A method of requesting a certificate from a CA. It starts by creating an RSA-based private/public key pair and then including the public key in the CSR.
+%
+CTM
+
+Counter mode. A mode of operation used for encryption that combines an IV with a counter. The combined result is used to encrypt blocks.
+%
+custom firmware
+
+Mobile device firmware other than the firmware provided with the device. People sometimes use custom firmware to root Android devices.
+%
+cyber-incident response team
+
+A group of experts who respond to security incidents. Also known as CIRT.
+%
+CYOD
+
+Choose your own device. A mobile device deployment model. Employees can connect their personally owned device to the network as long as the device is on a preapproved list. Compare with BYOD and COPE.
+%
+DAC
+
+Discretionary access control. An access control model where all objects have owners and owners can modify permissions for the objects (files and folders). Microsoft NTFS uses the DAC model.
+%
+data-at-rest
+
+Any data stored on media. It's common to encrypt sensitive data-at-rest.
+%
+data execution prevention (DEP)
+
+A security feature that prevents code from executing in memory regions marked as nonexecutable. It helps block malware.
+%
+data exfiltration
+
+The unauthorized transfer of data outside an organization.
+%
+data-in-use
+
+Any data currently being used by a computer. Because the computer needs to process the data, it is not encrypted while in use.
+%
+data retention policy
+
+A security policy specifying how long data should be kept (retained).
+%
+data sovereignty
+
+A term that refers to the legal implications of data stored in different countries. It is primarily a concern related to backups stored in alternate locations via the cloud.
+%
+DDoS
+
+Distributed denial-of-service. An attack on a system launched from multiple sources intended to make a computer's resources or services unavailable to users. 0005 attacks typically include sustained, abnormally high network traffic. Compare with 005.
+%
+dead code
+
+Code that is never executed or used. It is often caused by logic errors.
+%
+defense in depth
+
+The use of multiple layers of security to protect resources. Control diversity and vendor diversity ate two methods organizations implement to provide defense in depth.
+%
+degaussing
+
+The process of removing data from magnetic media using a very powerful demonic magnet. Degaussing is sometimes used to remove data from backup tapes or to destroy hard disks.
+%
+DER
+
+Distinguished Encoding Rules. A base format for PKI certificates. They are BASE" ASCII encoded tiles Compare with CER.
+%
+DES
+
+Data Encryption Standard. A legacy symmetric encryption standard used to provide confidentiality. It has been compromised and AES or 3DES should be used instead.
+%
+detective controls
+
+Security controls that attempt to detect security incidents after they have occurred.
+%
+deterrent controIs
+
+Security controls that attempt to discourage individuals from causing a security Incident.
+%
+dictionary [attack]
+
+A password attack that uses a me of words and character combinations. The attack tries every entry within the file when trying to guess a password.
+%
+differential backup
+
+A type of backup that backs up all the data that has changed or is different since the last full backup.
+%
+Diffie-Hellman
+
+An asymmetric algorithm used to privately share symmetric keys. DH Ephemeral (DHE) uses ephemeral keys, which are re-created for each session. Elliptic Curve DHE (ECDHE) uses elliptic cuwe cryptography to generate encryption keys.
+%
+diffusion
+
+A cryptography concept that ensures that small changes in plaintext result in significant changes in ciphertext.
+%
+dig
+
+A command-line tool used to test DNS on Linux systems. Compare with nslookup.
+%
+digital signature
+
+An encrypted hash of a message, encrypted with the sender's private key. It provides authentication, non-repudiation, and integrity.
+%
+disablement policy
+
+A policy that identifies when administrators should disable user accounts.
+%
+dissolvable agent
+
+A NAC agent that runs on a client, but deletes itself later. It checks the client for health. Compare with permanent agent.
+%
+DLL injection
+
+An attack that injects a Dynamic Link Library (DLL) into memory and runs It. Attackets write the DLL inserting malicious code.
+%
+DLP
+
+Data loss prevention. A group of technologies used to prevent data loss. They can block the use of USB devices, monitor outgoing email to detect and block unauthorized data transfers, and monitor data stored in the cloud.
+%
+DMZ
+
+Demilitarized zone. A buffer zone between the Internet and an internal network. Internet clients can access the services hosted on servers in the DMZ, but the DMZ provides a layer of protection for the imemalnetwodt.
+%
+DNS
+
+Domain Name System. A service used to resolve msi names to IP addresses. DNS zones include records sue has ArecoMsforva-taddressesandAAAArecordsforthéaddresses .
+%
+DNSSEC
+
+Domain Name System Security Extensions. A suite of extensions to DNS used to protect the integrity of DNS records and prevmt some DNS attacks.
+%
+DNS poisoning
+
+An attack that modifies or corrupts DNS results. DNSSEC helps prevent DNS poisoning.
+%
+Domain Hijacking
+
+An attack that changes the registration of a domain name without permission from the owner.
+%
+DoS
+
+DeniaI-of-service. An attack from a single source that attempts to disrupt the services provided by the attacked system. Compare with 0005.
+%
+downgrade attack
+
+A type of attack that forces a system to downgrade its security. The attacker then exploits the lesser security control. POODLE
+%
+DSA
+
+Digital signature algorithm. An encrypted hash of a message used for authentication, now repudiation, and integrity. The sender's private key encrypts the hash of the message.
+%
+dumpster diving
+
+The practice of searching through trash looking to gain information from discarded documents. Shredding or burning papers helps prevent the success of dumpster diving.
+%
+EAP
+
+Extensible Authentication Protocol. An authentication framework that provides general guidance for authentication methods. Variations include PEAP, EAP-TLS, EAP-'ITLS, and EAP-FAST.
+%
+EAP-FAST
+
+EAP-Flexible Authentication via Secure Tunneling (EAP-FAST). A Cisco-designed replacement for Lightweight EAP (LEAP). EAP-FAST supports certificates, but they are optional.
+%
+EAP-TLS
+
+Extensible Authentication Protocol-Transport Layer Security. An extension of EAP sometimes used with 802.1II. 11155 is one of the most secure EAP standards and is widely implemented. it requires certificates on the 802.1): sewer and on the clients.
+%
+EAP-TTLS
+
+-Extensible Authentication Hotocol-Tunneled Transport Layer Security. An extension of EA? sometimes used with 802.1x. it auows systems to use some older authentication methods such as PAP within a 11.5 tunnel. It requires a certificate on the 802.1): server but not on the clients.
+%
+ECB
+
+{lectronk Codebook. A legacy mode of operation used for encryption. It is weak and should not be used.
+%
+embedded system
+
+Any device that has a dedicated function and uses a computer system to perform that function. it includes a CPU, an operating system. and one or more applications.
+%
+EMI
+
+Electromagnetic interference. Interference caused by motors, power tines, and fluorescent Ughts. EM! shielding prevents outside interference sources from corrupting data and prevents data m emanating outside the cabte.
+%
+EMP (Electromagnetic Pulse)
+
+A short burst of energy that can potentially damage electronic equipment. It can result from electrostatic discharge (ESD), lightning, and military weapons.
+%
+encryption
+
+A process that scrambles, or ciphers, data to make it unreadable. Encryption normally includes a public algorithm and a private key. Compare with asymmetric and symmetric encryption.
+%
+Enterprise
+
+A wireless mode that uses an 802.1x server for security. It forces users to authenticate with a username and password. Compare with Open and PSK modes.
+%
+ephemeral key
+
+A type of key used in cryptography. Ephemeral keys have very short lifetimes and are re-created for each session.
+%
+error handling
+
+A programming process that handles errors gracefully.
+%
+evil twin
+
+A type of rogue AP. An evil twin has the same SSID as a legitimate AP.
+%
+exit interview
+
+An interview conducted with departing employees just before they leave an organization.
+%
+exploitation frameworks
+
+Tools used to store information about security vulnerabilities. They are often used by penetration testers (and attackers) to detect and exploit software.
+%
+extranet
+
+The part of an internal network shared with outside entities. Extranets are often used to provide access to authorized business partners, customers, vendors, or others.
+%
+facial recognition
+
+A biometric method that identihes people based on facial features.
+%
+false negative
+
+A security incident that isn't detected or reported. As an example, a NIDS false negative occurs if an attack is active on the network but the NIDS does not raise an alert.
+%
+false positive
+
+An alert on an event that isn't a security incident. As an example, a NIDS false positive occurs if the NIDS raises an alert but activity on the network is normal.
+%
+FAR (false acceptance rate)
+
+Also called the false match rate. A rate that identifies the percentage of times a biometric authentication system incorrectly indicates a match.
+%
+Faraday cage
+
+A room or enclosure that prevents signals from emanating beyond the room or enclosure.
+%
+fat AP
+
+An AP that includes everything needed to connect wireless clients to a wireless network. Fat APs must be configured independently. Sometimes called a stand-alone AP. Compare with thin AP.
+%
+fault tolerance
+
+The capability of a system to suffer a fault, but continue to operate. Said another way, the system can tolerate the fault as if it never occurred.
+%
+FDE (full disk encryption)
+
+A method to encrypt an entire disk. Compare with SED.
+%
+federation
+
+Two or more members of a federated identity management system. Used for single sign-on.
+%
+fingerprint scanners
+
+Biometric systems that scan fingerprints for authentication.
+%
+firewalI
+
+A software or a network device used to filter traffic. Firewalls can be application-based (running on a host), or a network-based device. Stateful firewalls filter traffic using rules within an ACL. Stateless firewalls filter traffic based on its state within a session.
+%
+firmware OTA updates
+
+Over-the-air updates for mobile device firmware that keep them up to date. These are typically downloaded to the device from the internet and applied to update the device.
+%
+flood guard
+
+A method of thwarting flood attacks. On switches, a flood guard thwarts MAC flood attacks. On routers, a flood guard prevents SYN flood attacks.
+%
+framework
+
+A structure used to provide a foundation. Cybersecurity frameworks typically use a structure of basic concepts and provide guidance to professionals on how to implement security.
+%
+FRR
+
+False rejection rate. Also called the false nonmatch rate. A rate that identifies the percentage of times a biometric authentication system incorrectly rejects a valid match.
+%
+FTPS
+
+File Transfer Protocol Secure. An extension of FTP that uses TLS to encrypt FTP traffic. Some implementations of FTPS use TCP ports 989 and 990.
+%
+full backup
+
+A type of backup that backs up all the selected data. A full backup could be considered a normal backup.
+%
+full tunnel
+
+An encrypted connection used with VPNs. When a user is connected to a VPN, all traffic from the user is encrypted. Compare with split tunnel.
+%
+GCM
+
+Galois/Counter Mode. A mode of operation used for encryption. It combines the Counter (CTM) mode with hashing techniques for data authenticity and confidentiality.
+%
+geofencing
+
+A virtual fence or geographic boundary. It uses GPS to create the boundary. Apps can then respond when a mobile device is within the virtual fence.
+%
+geolocation
+
+The location of a device identified by GPS. It can help locate a lost or stolen mobile device.
+%
+GPO
+
+Group Policy Object. A technology used within Microsoft Windows to manage users and computers. It is implemented on a domain controller within a domain.
+%
+GPS
+
+Global Positioning System. A satellite-based navigation system that identifies the location of a device or vehicle. Mobile devices often incorporate GPS capabilities.
+%
+GPS tagging
+
+A process of adding geographical data to files such as pictures. It typically includes latitude and longitude coordinates of the location where the picture was taken or the file was created.
+%
+gray box test
+
+A type of penetration test. Testers have some knowledge of the environment prior to starting the test. Compare with black box test and white box test.
+%
+group-based access control
+
+A roie-based access control method that uses groups as roles.
+%
+Guest account
+
+A pre-created account in Windows systems. It is disabled by default.
+%
+hacktivist
+
+An attacker who launches attacks as part of an activist movement or to further a cause,
+%
+hardware root of trust
+
+A known secure starting point. TPMs have a private key burned into the hardware that provides a hardware root of trust.
+%
+hash
+
+A number created by executing a hashing algorithm against data, such as a file or message. Hashing is commonly used for integrity. Common hashing algorithms are MDS, SHA-i, and HMAC
+%
+heuristic/behavioral
+
+A type of monitoring on intrusion detection and intrusion prevention systems. It detects attacks by comparing traffic against a baseline. It is also known as anomaly detection.
+%
+HlDS
+
+Host-based intrusion detection system. Software installed on a system to detect attacks. it protects local resources on the host. A host-based intrusion prevention system (HIPS) is an extension of a HIDS. It is software installed on a system to detect and block attacks.
+%
+high availability
+
+A term that indicates a system or component remains available close to 100 percent of the time.
+%
+HMAC
+
+Hash-based Message Authentication Code. A hashing algorithm used to verify integrity and authenticity of a message with the use of a shared secret. It is typically combined with another hashing algorithm such as SHA.
+%
+hoax
+
+A message, often circulated th rough email, that tells of impending doom from a virus or other security threat that simply doesn't exist.
+%
+home automation
+
+Smart devices used within the home that have IP addresses. These are typically accessible via the Internet and are part of the Internet of things (loT).
+%
+honeypot
+
+A server designed to attract an attacker. It typically has weakened security encouraging attackers to investigate it.
+%
+honeynet
+
+A group of honeypots in a network. Honeynets are often configured in virtual networks.
+%
+hot and cold aisles
+
+A method commonly used in data centers to keep equipment cool. Cool air flows from the front of the cabinets to the back, making the front aisle cooler and the back aisie warmer.
+%
+HOTP
+
+HMAC-based One-Time Password. An open standard used for creating one-time passwords. It combines a secret key and a counter, and then uses HMAC to create a hash of the result.
+%
+hot site
+
+An alternate location for operations. A hot site typically includes everything needed to be operational within 60 minutes. Compare with cold site and warm site.
+%
+HSM
+
+Hardware security module. A removable or external device that can generate, store, and manage RSA keys used in asymmetric encryption. Compare with TPM.
+%
+HTTPS
+
+Hypertext Transfer Protocol Secure. A protocol used to encrypt HTTP trafhc. HTTPS encrypts traffic with TLS using TCP port 443.
+%
+HVAC
+
+Heating, ventilation, and air conditioning. A physical security control that increases availability by regulating airflow within data centers and server rooms.
+%
+IaaS
+
+lnfrastructure as a Service. A cloud computing model that allows an organization to rent access to hardware in a self-managed platform. Compare with PaaS and $005.
+%
+lCS
+
+Industrial control system. A system that controls large systems such as power plants or water treatment facilities. A SCADA system controls the ICS.
+%
+identification
+
+The process that occurs when a user claims an identity, such as with a username.
+%
+lEEE 802.1x
+
+An authentication protocol used in VPNs and wired and wireless networks. VPNs often implement it as a RADIUS server. Wired networks use it for port-based authentication. Wireless networks use it in Enterprise mode. It can be used with certilicate-based authentication.
+%
+ifconfig
+
+A command-line tool used on Linux systems to show and manipulate settings on a network interface card (NIC). Similar to ipconfig used on Windows systems.
+%
+lMAP4
+
+lnternet Message Access Protocol version 4. A protocol used to store and manage email on servers. IMAP4 uses TCP port 143. Secure IMAP4 uses TLS to encrypt IMAP4 traffic.
+%
+impact
+
+The magnitude of harm related to a risk. It is the negative result of an event. such as the loss of confidentiality, integrity, or availability of a system or data. Compare with likelihood of occurrence.
+%
+implicit deny
+
+A rule in an ACL that blocks all traffic that hasn't been explicitly allowed. The implicit deny rule is the last rule in an ACL.
+%
+Incident response
+
+The process of responding to a security incident. Organizations often create an incident response plan that outlines the procedures to be used when responding to an incident.
+%
+incident response plan (lRP)
+
+The procedures documented in an incident response policy.
+%
+incident response process
+
+The phases of incident response, including preparation. identification. containment, eradication, recovery, and lessons learned.
+%
+incremental backup
+
+A type of backup that backs up all the data that has changed since the last full or incremental backup.
+%
+injection attack
+
+An attack that injects code or commands. Common injection attacks are DLL injection, command injection, and SQL injection attacks.
+%
+inline
+
+A configuration that forces traffic to pass through a device. A NIPS is placed inline, allowing it to prevent malicious traffic from entering a network. Sometimes called in-band. Compare with out-of-band.
+%
+550 CompTlA Securit +: Get Certified Get Ahead
+
+
+%
+input validation
+
+A programming process that verifies data is valid before using it.
+%
+insider
+
+An attacker who launches attacks from within an organization, typically as an employee.
+%
+integer overflow
+
+An application attack that attempts to use or create a numeric value that is too big for an application to handle. Input handling and error handling thwart the attack.
+%
+integrity
+
+One of the three main goals of information security known as the CIA security triad, Integrity provides assurance that data or system configurations have not been modified. Audit legs and hashing are two methods used to ensure Integrity. Compare with availability and confidentiality.
+%
+intranet
+
+An internal network. People use an intranet to communicate and share content with each other.
+%
+IoT
+
+lntemet of things. The network of physical devices connected to the Internet. It typicaliy refers to smart devices with an IP address, such as wearable technology and home automation systems.
+%
+ip
+
+A command-Iine tool used on Linux systems to show and manipulate settings on a network interface card (NIC). Developers created this to replace ifconflg.
+%
+ipconfig
+
+A command-Iine tool used on Windows systems to show the configuration settings on a NIC.
+%
+lPsec
+
+lntemet Protocol secu rity. A suite of protocols used to encrypt data-in-transit that can operate in both TunneI mode and Transport mode. It uses Tunnel mode for VPN traffic and Transport mode in private networks.
+%
+IP spoofing
+
+An attack that changes the source IP address. iris scanners-Biometric systems that scan the iris of an eye for authentication.
+%
+ISA
+
+Interconnection security agreement. An agreement that specifies technical and security requirements for connections between two or more entities. Compare with MOU/MOA.
+%
+IV (initialization vector) attack
+
+A wireless attack that attempts to discover the IV. Legacy wireless security protocols are susceptible to IV attacks.
+%
+jailbreaking
+
+The process of modifying an Apple mobile device to remove software restrictions. It allows a user to install software from any third-party source. Compare with rooting.
+%
+jamming
+
+A DoS attack against wireless networks. It transmits noise on the same frequency used by a wireless network.
+%
+job rotation
+
+A process that ensures employees rotate through different jobs to learn the processes and procedures in each job. It can sometimes detect fraudulent activity.
+%
+KDC
+
+Key Distribution Center. Also known as a TGT server. Part of the Kerberos protocol used for network authentication. The KDC issues timestamped tickets that expire.
+%
+Kerberos
+
+A network authentication mechanism used with Windows Active Directory domains and some Unix environments known as realms. It uses a KDC to issue tickets.
+%
+kernel
+
+The central part of the operating system. In container virtualization, guests share the kernel. key escrow-The process of placing a copy of a private key in a safe environment.
+%
+keylogger
+
+Software or hardware used to capture a user's keystrokes. Keystrokes are stored in a file and can be manually retrieved or automatically sent to an attacker.
+%
+key stretching
+
+A technique used to increase the strength of stored passwords. it adds additional bits (called salts) and can help thwart brute force and rainbow table attacks.
+%
+known plaintext
+
+A cryptographic attack that decrypts encrypted data. in this attack, the attacker knows the plaintext used to create ciphertext.
+%
+labeling
+
+The process of ensuring data is tagged clearly so that users know its classification. Labels can be physical labels, such as on backup tapes, or digital labels embedded in files.
+%
+LDAP
+
+Lightweight Directory Access Protocol. A protocol used to communicate with directories such as Microsoft Active Directory. It identifies objects with query strings using codes such as CN=Users and DC=GetCertifiedGetAhead.
+%
+LDAPS
+
+Lightweight Directory Access Protocol Secure. A protocol used to encrypt LDAP traffic with TLS.
+%
+least functionality
+
+A core principle of secure systems design. Systems should be deployed with only the applications, services, and protocols needed to meet their purpose.
+%
+least privilege
+
+A security principle that specifies that individuals and processes are granted only the rights and permissions needed to perform assigned tasks or functions. but no more.
+%
+legal hold
+
+A court order to maintain data for evidence.
+%
+likelihood of occurrence
+
+The probability that something will occur. It is used with impact in a qualitative risk assessment. Compare with impact.
+%
+load balancer
+
+Hardware or software that balances the load between two or more servers. Scheduling methods include source address IP affinity and round-robin.
+%
+location-based policies
+
+Policies that prevent users from logging on from certain locations, or require that they log on only from specific locations.
+%
+logic bomb
+
+A type of malware that executes in response to an event. The event might be a Specm date or time, or a user action such as when a user launches a specific program.
+%
+loop prevention
+
+A method of preventing switching loop or bridge loop problems. Both 51? and RSTP prevent switching loops.
+%
+MAC
+
+Mandatory access control. An access control model that uses sensitivity labels assigned to objects (files and folders) and subjects (users). MAC restricts access based on a need to know.
+%
+MAC
+
+Media access control. A 48-bit address used to identify network interface cards. It is also called a hardware address or a physical address.
+%
+MAC filtering
+
+A form of network access control to allow or block access based on the MAC address. It is configured on switches for port security or on APs for wireless security.
+%
+MAC spoofing
+
+An attack that changes the source MAC address.
+%
+mail gatewayi
+
+A server that examines and processes all incoming and outgoing email. It typically includes a spam filter and DLP capabilities. Some gateways also provide encryption services.
+%
+malware
+
+Malicious software. It includes a wide range of software that has malicious intent, such as viruses, worms, ransomware, rootkits, logic bombs, and more.
+%
+mandatory vacation
+
+A policy that forces employees to take a vacation. The goal is to deter malicious activity, such as fraud and embezzlement, and detect malicious activity when it occurs.
+%
+man-in-the-browser
+
+An attack that infects vulnerable web browsers. It can allow the attacker to capture browser session data, including keystrokes.
+%
+man-in-the-middle (MiTM)
+
+An attack using active interception or eavesdropping. It uses a third computer to capture traffic sent between two other systems.
+%
+mantrap
+
+A physical security mechanism designed to control access to a secure area. A mantrap prevents tailgating.
+%
+MD5
+
+Message Digest 5. A hashing function used to provide integrity. MDS creates 128-bit hashes, which are also referred to as MDS checksums. Experts consider MDS cracked.
+%
+MDM (Mobile device management)
+
+A group of applications and/or technologies used to manage mobile devices. MDM tools can monitor mobile devices and ensure they are in compliance with security policies.
+%
+memory leak
+
+An application flaw that consumes memory without releasing it.
+%
+MFDs
+
+Multi-function devices. Any device that performs multiple functions. As an example. many printers are MFDs because they can print, scan, and copy documents. Many also include faxing capabilities.
+%
+Appendix A-Glossary 553
+
+
+%
+MMS
+
+Multimedia Messaging Service. A method used to send text messages. It is an extension of SMS and supports sending multimedia content.
+%
+MOU/MOA (Memorandum of understanding/agreement)
+
+A type of agreement that defines responsibilities of each party. Compare with ISA.
+%
+MS-CHAPv2
+
+Microsoft Challenge Handshake Authentication Protocol version 2. Microsoft implementation of CHAP. MS-CHAPv2 provides mutual authentication. Compare with CHAP and PAP.
+%
+MTBF
+
+Mean time between failures. A metric that provides a measure of a system's reliability and is' usually represented in hours. The MTBF identifies the average time between failures. '
+%
+MTTR
+
+--Mean time to recover. A metric that identifies the average time it takes to restore a failed system. Organizations that have maintenance contracts often specify the MTTR as a part of the contract. .
+%
+multifactor authentication
+
+A type of authentication that uses methods from more than one factor of authentication.
+%
+NAC
+
+Network access control. A system that inspects clients to ensure they are healthy. Agents inspect clients and agents can be permanent or dissolvable (also known as agentless).
+%
+NAT
+
+Network Address Translation. A service that translates public IP addresses to private IP addresses and private IP addresses to public IP addresses.
+%
+NDA
+
+Non-disclosure agreement. An agreement that is designed to prohibit personnel from sharing proprietary data. It can be used with employees within the organization and with other organizations.
+%
+Netcat
+
+A command-Iine tool used to connect to remote systems.
+%
+netstat
+
+A command-Iine tool used to show network statistics on a system.
+%
+network mapping
+
+A process used to discover devices on a network, including how they are connected.
+%
+network scanner
+
+A tool used to discover devices on a network, including their IP addresses, their operating system, along with services and protocols running on the devices.
+%
+NFC attack
+
+An attack against mobile devices that use near field communication (NFC). NFC is a group of standards that allow mobile devices to communicate with nearby mobile devices.
+%
+NIDS
+
+Network-based intrusion detection system. A device that detects attacks and raises alerts. A NIDS is installed on network devices, such as routers or Firewalls, and monitors network traffic.
+%
+NIPS
+
+Network-based intrusion prevention system. A device that detects and stops attacks in progress. A NIPS is placed inline (also called in-band) with traffic so that it can actively monitor data
+%
+NTLM (New Technology LAN Manager)
+
+A suite of protocols that provide confidentiality, integrity, and authentication withinWindows systemVersions include NTLM, NTLMVZ, and NTLMZ Session.
+%
+obfuscation
+
+An attempt to make something unclear or difficult to understand. Steganography methods use obfuscation to hide data within data.
+%
+OCSP
+
+Online Certificate Status Protocol An alternative to using a CRL It allows entities to query a CA with the serial number of a certificate. The CA answers with good, revoked, or unknown.
+%
+onboarding
+
+The ptocess of granting individuals access to an organization's computing resources after being hired. It typically includes giving the employee a user account with approptiate permissions.
+%
+Open
+
+A wireless mode that doesn't use security. Compare with Enterprise and PSK modes.
+%
+OpenlD Connect
+
+An open source standard used for identification on the Internet. It is typical!!! used with OAuth and it allows clients to verify the identity of end users without managing their credentials.
+%
+open-source intelligence
+
+A method of gathering data using public sources, such as social media sites and news outlets.
+%
+Mder of volatility
+
+A term that refers to the order in which you should collect evidence. For example! data in memory is more volatile than data on a disk drive. so it should be collected first.
+%
+out-of-band
+
+A configuration that allows a device to collect traffic without the traffic passing through it Sometimes called passive. Compare with inline.
+%
+P7B-PKCS#7
+
+A common format for PKI certificates. They are DER-based (A50!) and commonly used to share public keys
+%
+P12-PKCS#12
+
+A common format for PKI certificates. They are CER-based (binary) and often hold certificates with the private key. They are commonly encrypted.
+%
+PaaS
+
+Platform as a Service. A cloud computing model that provides cloud customers with a preconfigured computing platform they can use as needed. Compare with 1005 and SaaS.
+%
+PAP
+
+Password Authentication Protocol. An older authentication protocol where passwords or Ple are sent across the network in cleartext Compare with CHAP and MS-CHAPVZ.
+%
+passive reconnaissance
+
+A penetration testing method used to collect infomation. It typically uses open-source intelligence. Compare with active reconnaissance.
+%
+pass the hash
+
+A password attack that captures and uses the hash of a password It attempts to log on as the user with the hash and is commonly associated with the Microsoft NTLM protocol.
+%
+password cracket
+
+A tool used to discover passwords.
+%
+patch management
+
+The process used to keep systems up to date with current patches. It typically includes evaluating and testing patches before deploying them.
+%
+PBKDFz
+
+Password-Based Key Derivation Function 2. A key stretching technique that adds additional bits to a password as a salt. It helps prevent brute force and rainbow table attacks.
+%
+PEAP
+
+Protected Extensible Authentication Protocol. An extension of EAP sometimes used with 802.1 x. PEAP requires a certificate on the 802.1x server.
+%
+PEM
+
+Privacy Enhanced Mail. A common format for PKI certificates. It can use either CER (ASCII) 0t DER (binary) formats and can be used for almost any type of certificates.
+%
+penetration testing
+
+A method of testing targeted systems to determine if vulnerabilities can be exploited. Penetration tests are intrusive. Compare with vulnerability scanner.
+%
+perfect forward secrecy
+
+A characteristic of encryption keys ensuring that keys are random. Perfect forward secrecy methods do not use deterministic algorithms.
+%
+permanent agent
+
+A NAC agent that is installed on a client. It checks the client for health. Compare with dissolvable agent.
+%
+permission auditing review
+
+An audit that analyzes user privileges. It identifies the privileges (rights and permissions) granted to users. and compares them against what the users need.
+%
+PFx
+
+Personal Information Exchange. A common format for PKI certificates. It is the predecesso: to P12 certificates.
+%
+PHl
+
+Personal Health Information. P" that includes health information.
+%
+phishing
+
+The practice of sending email to users with the purpose of tricking them into revealing personal information or clicking on a link.
+%
+physical controls~5ecurity controls that you can physically touch.
+
+
+%
+PII
+
+Personally identifiable Information. Information about individuals that can be used to trace a person's identity, such as a full name, birth date, biometric data, and more.
+%
+ping
+
+A command-line tool used to test connectivity with remote systems.
+%
+pinning
+
+A security mechanism used by some web sites to prevent web site impersonation. Web sites provide clients with a list of public key hashes. Clients store the list and use it to validate the web site.
+%
+PIV (Personal Identity Verification) card
+
+A specialized type of smart card used by US. federal agencies. It includes photo identification and provides confidentiality, integrity, authentication, and non-repudiation.
+%
+pivot
+
+One of the steps in penetration testing. After escalating privileges, the tester uses additionai tools to gain additional information on the exploited computer or on the network.
+%
+plaintext
+
+Text displayed in a readable format. Encryption converts plaintext to ciphertext.
+%
+pointer dereference
+
+A programming practice that uses a pointer to reference a memory area. A failed dereference operation can corrupt memory and sometimes even cause an application to crash.
+%
+POP3
+
+Post Office Protocol version 3. A protocol used to transfer email from mail servers to clients.
+%
+port mirror
+
+A monitoring port on a switch. All traffic going through the switch is also sent to the port mirror.
+%
+preventive controls
+
+Security controls that attempt to prevent a security incident from occurring.
+%
+privacy impact assessment
+
+An assessment used to identify and reduce risks related to potential loss of PH. Compa re with privacy threshold assessment.
+%
+privacy threshold assessment
+
+An assessment used to help identify if a system is processing Pu. Compare with privacy impact assessment.
+%
+private data
+
+lnformation about an individual that should remain private. Personally Identifiable Information (PII) and Personal Health Information (PHI) are two examples.
+%
+private key
+
+Part of a matched key pair used in asymmetric encryption.The private key always stays private. Compa re with public key.
+%
+privilege escalation
+
+The process of gaining elevated rights and permissions. Malware typically uses a variety of techniques to gain elevated privileges.
+%
+privileged account
+
+An account with elevated privileges, such as an administrator account.
+%
+proprietary data
+
+Data that is related to ownership. Common examples are information related to patents or trade secrets.
+%
+Protocol analyzer
+
+A tool used to capture network traffic. Both professionals and attackers use protocol analyzers to examine packets. A protocol analyzer can be used to view data sent in clear text.
+%
+Proximity cards
+
+Small credit card-sized cards that activate when they are in dose proximity '0 a card reader. They are often used by authorized personnel to open doors.
+%
+Proxy/proxies
+
+A server (or servers) used to forward requests for services such as HTT P air HTTPS: A forward proxy server forwards requests from internal clients to externai servers. A reverse proxy accepts requests from the Internet and forwards them to an internal web server. A transparent proxy does not modify requests, but nontransparent proxies include URL hiters. An application proxy is used for a specific application, but most proxy servers are used for multiple protocois.
+%
+PSK
+
+Pre-shared key. A wireless mode that uses a pre-shared key (similar to a password or passphrase) for security. Compare with Enterprise and Open modes.
+%
+public data
+
+Data that is available to anyone. It might be in brochures, in press releases, or on web sites. ~
+%
+public key
+
+Part of a matched key pair used in asymmetric encryption. The public key is publicly available. Compare with private key.
+%
+Public Key Infrastructure (PKI)
+
+A group of technologies used to request, create, manage, store. distribute, and revoke digital certificates.
+%
+pulping
+
+A process that is performed after shredding papers. it reduces the shredded paper to a mash or puree.
+%
+pulverizing
+
+A process used to physically destroy items such as optical discs that aren't erased by a degausser.
+%
+purging
+
+A general sanitization term indicating that all sensitive data has been removed from a device.
+%
+push notification services
+
+The services that send messages to mobile devices.
+%
+qualitative risk assessment
+
+A risk assessment that uses judgment to categorize risks. it is based on impact and likelihood of occurrence.
+%
+quantitative risk assessment
+
+A risk assessment that uses specific monetary amounts to identify cost and asset value. It then uses the SLE and ARO to calculate the ALE.
+%
+race condition
+
+--A programming flaw that occurs when two sets of code attempt to access the same resource. The first one to access the resource wins, which can result in inconsistent results.
+%
+RADIUS
+
+Remote Authentication Dial-In User Service. An authentication service that provides central authentication for remote access clients. Alternatives are TACACS+ and Diameter.
+%
+558 CompTIA Security+z Get Certifved Get Ahead
+
+
+%
+RAlD
+
+Redundant array of inexpensive disk: Multiple disks added together to increase or provide protection against faults. Common types include RAtD-t. RAID-S. RAID-6, and RAID-m
+%
+rainbow table
+
+A file containing precomputed hashes for character combinations. Rainbow tables are used to discover passwords. PBKDFZ and bcrypt thwart rainbow table attacks.
+%
+ransomware
+
+A type of malware used to extort money from individuals and organizations. Ransomware typically encrypts the user's data and demands a ransom before decrypting the data.
+%
+RAT
+
+Remote access Trojan. Malware that allows an attacker to take control of a system from a remote tocation.
+%
+RC4
+
+A symmetric stream cipher that can use between 40 and 2.048 bits. Experts consider it cracked and recommend using stronger alternatives.
+%
+record time offset
+
+An offset used by recorders to identify times on recoding; If you know vdmen the recording started. you can use the offset to identify the actual time at any point in the recording
+%
+recovery site
+
+An alternate location for business functions after a major disaster.
+%
+redundancy
+
+The process of adding duplication to critical system components and networks to provide fault tolerance.
+%
+refactoring
+
+A driver manipulation method. Developers rewrite the code without changing the driver's behavior.
+%
+remote wipe
+
+The process of sending a signal to a remote device to erase all data. It is useful when a mobile device is lost or stolen.
+%
+replay attack
+
+An attack where the data is captured and replayed. Attackers typically modify data before replaying it
+%
+resource exhaustion
+
+The malicious result of many DoS and 0005 attacks. The attack overloads a computer's resources (such as the processor and memory), resulting in service interruption.
+%
+retina scanners
+
+Biometric systems that scan the retina of an eye for authentication.
+%
+RFID attacks
+
+Attacks against radio-frequency identification (RFID) systems. Some common RFID attacks are eavesdropping, replay, and DoS.
+%
+RlPEMD
+
+RACE Integrity Primitives Evaluation Message Digest. A hash function used for integrity. it creates fixed-length hashes of 128, 160, 256. or 320 bits.
+%
+risk
+
+-The possibility or likelihood of a threat exploiting a vulnerability resulting in a loss. Comp"? with threatand vulnerability.
+%
+risk assessment
+
+A process used to identify and prioritize risks. It includes quantitative risk assessments and qualitative risk assessments.
+%
+risk management
+
+The practice of identifying, monitoring, and limiting risks to a manageable level. It includes risk response techniques, qualitative risk assessments, and quantitative risk assessments.
+%
+risk mitigation
+
+The process of reducing risk by implementing controls. Security controis reduce risk by reducing vulnerabilities associated with a risk, or by reducing the impact of a threat.
+%
+risk register
+
+A document listing information about risks. It typically includes risk scores along with recommended security controls to reduce the risk scores.
+%
+risk response techniques
+
+Methods used to manage risks. Common risk response techniques are accept, transfer, avoid, and mitigate.
+%
+rogue AP
+
+An unauthorized AP. It can be placed by an attacker or an employee who hasn't obtained permission to do so.
+%
+roIe-BAC
+
+Role-based access control. An access control model that uses roles based on jobs and functions to define access. It is often implemented with groups (providing group-based privileges).
+%
+root certificate
+
+A PKI certificate identifying a root CA.
+%
+rooting
+
+The process of modifying an Android device, giving the user root-ievei, or administrator, access. Compare with jailbreaking.
+%
+rootkit
+
+A type of malware that has system-Ievel access to a computer. Rootkits are often able to hide themselves from users and antivirus software.
+%
+ROT13
+
+A substitution cipher that uses a key of 13. To encrypt a message, you would rotate each letter 13 spaces. To decrypt a message, you would rotate each letter 13 spaces.
+%
+round-robin
+
+A scheduling method used with load balancers. it redirects each client request to servers in a predetermined order.
+%
+router
+
+A network device that connects multiple network segments together into a single network They route traffic based on the destination IP address and do not pass broadcast traffic. Routers use ACLs.
+%
+RPO
+
+Recovery point objective. A term that refers to the amount of data you can afford to lose by identifying a point in time where data loss is acceptable. it is often identified in a BIA.
+%
+RSA
+
+Rivest, Shamir, and Adleman. An asymmetric algorithm used to encrypt data and digitaiiy sign transmissions. it is named after its creators, Rivest, Shamir, and Adleman.
+%
+RSTP
+
+Rapid Spanning Tree Protocol. An improvement of ST? to prevent switching loop problems.
+%
+RTO
+
+Recovery time objective. The maximum amount of time it should take to restore a system after an outage. It is derived from the maximum allowable outage time identified in the BIA.
+%
+RTOS
+
+ReaI-time operating system. An operating system that reacts to input within a specific time. Many embedded systems include an RTOS.
+%
+ruIe-BAC
+
+-Rule-based access control. An access control model that uses rules to define access. Rulebased access control is based on a set of approved instructions, such as an access control list, or rules that trigger in response to an event, such as modifying ACLs after detecting an attack.
+%
+runtime code
+
+Code that is interpreted when it is executed. Compare with compiled code.
+%
+SaaS
+
+Software as a Service. A cloud computing model that provides appiications overthe intemet Webmail is an example of a cloud-based technology. Compare with IaaS and P005.
+%
+salt
+
+A random set of data added to a password when creating the hash. PBKDFZ and bcrypt are two protocols that use salts.
+%
+SAML (Security Assertion Markup Language)
+
+An XML-based standard used to exchange authentication and authorization information between different parties. SAML provides 550 forwebbased applications.
+%
+sandboxing
+
+The use of an isolated area on a system, typically for testing. Virtuai machines are often used to test patches in an isolated sandbox. Application developers sometimes use thechroot command to change the root directory creating a sandbox.
+%
+sanitize
+
+The process of destroying or removing all sensitive data from systems and devices. Data sanitization methods include burning, shredding, pulping, pulverizing, degaussing, purging, and wiping.
+%
+SATCOM
+
+Satellite communications. A communication system that allows devices to connect to a satellite for communications. Many cars include satellite communication capabilities.
+%
+SCADA
+
+Supervisory control and data acquisition. A system used to control an MS such as a power plant or water treatment facility. Ideally, a SCADA is within an isolated network
+%
+screen filter
+
+A physical secu rity device used to reduce visibility of a computer screen. Screen filters help prevent shoulder surfing.
+%
+script kiddie
+
+An attacker with little expertise or sophistication. Script kiddies use existing scripts to launch attacks.
+%
+SDN
+
+Software defined network. A method of using software and virtualization technologies to replace hardware routers. SDNs separate the data and control planes.
+%
+secure boot
+
+A process that checks and validates system files during the boot process. A TPM typically uses a secure boot process.
+%
+secure DevOps
+
+A software development process using an agile-aligned methodology. it considers security through the lifetime of the project.
+%
+security incident
+
+An adverse event or series of events that can negatively affect the confidentiality. integrity, or availability of an organization's information technology (IT) systems and data.
+%
+SED
+
+Seif-encrypting drive. A drive that includes the hardware and software necessary to encrypt a hard drive. Users typically enter credentiais to decrypt and use the drive.
+%
+Separation of Duties
+
+A security principle that prevents any single person or entity from controlling all the functions of a critical or sensitive process. It's designed to prevent fraud, theft, and errors.
+%
+service account
+
+An account used by a setvke or application.
+%
+session hijacking
+
+An attack that attempts to impersonate a user by capturing and using a session ID. Session IDs are stored in cookies.
+%
+SFTP
+
+Secure File Transfer Protocol. An extension of Secure Shell (SSH) used to encrypt FTP traffic SFT P transmits data using TCP port 22.
+%
+SHA
+
+Secure Hash Algorithm. A hashing function used to provide integrity.Versions indude SHA-I, SHA-Z, and SHA-3.
+%
+Shibboleth
+
+An open source federated identity solution.
+%
+shimming
+
+A driver manipulation method. It uses additional code to modify the behavior of a driver.
+%
+shoulder surfing
+
+The practice of looking over someone's shoulder to obtain infatmation, such as on a computer screen. A screen filter placed over a monitor helps reduce the success of shoulder surfing.
+%
+shredding
+
+A method of destroying data or sanitizing media. Cross-cut paper shreddets cut papers into fme particles. File shredders remove all remnants of a file by overwriting the contents multiple times.
+%
+sideloading
+
+The process of copying an application package to a mobile device. It is useful for developers when testing apps, but can be risky if users sideload unauthorized apps to their device.
+%
+SIEM
+
+Security information and event management. A security system that attempts to look at security events throughout the organization.
+%
+signature-based
+
+A type of monitoring used on intrusion detection and intrusion prevention systems. It detects attacks based on known attack patterns documented as attack signatures.
+%
+single point of failure
+
+A component within a system that can cause the entire system to fail ifthe component fails.
+%
+SLA
+
+Service level agreement. An agreement between a company and a vendor that stipulates performance expectations, such as minimum uptime and maximum downtime levels.
+%
+SLE
+
+Single loss expectancy. The monetary value of any single loss. It is used to measure risk with ALE and ARO in a quantitative risk assessment. The calculation is SLE x ARO = ALE.
+%
+smart card
+
+A credit card-sized card that has an embedded microchip and a certificate. It is used for authentication in the something you have factor of authentication.
+%
+S/MlME
+
+Secure/Multipurpose Internet Mail Extensions. A popular standard used to secure email. SI MIME provides confidentiality, integrity, authentication, and non-repudiation.
+%
+SMS
+
+Short Message Service. A basic text messaging service. Compare with MMS.
+%
+snapshot
+
+A copy of a virtual machine (VM) at a moment in time. If you later have problems with the VM, you can revert it to the state it was in when you took the snapshot. Some backup programs also use snapshots to create a copy of data at a moment in time.
+%
+SNMPv3
+
+Simpie Network Management Protocol version 3. A protocol used to monitor and manage network devices such as routers and switches.
+%
+SoC (System on a chip)
+
+An integrated circuit that includes a computing system within the hardware. Many mobile devices include an SoC.
+%
+social engineering
+
+The practice of using social tactics to gain informatbn. Social engineers attempt to gain information from peOple, or get people to do things they wouidn't natmaiiy do.
+%
+something you are
+
+An authentication factor using biometrics, such as a fingerprint scannet.
+%
+something you do
+
+An authentication factor indicating action, such as gestures on a touch screen.
+%
+something you have
+
+An authentication factor using something physical. such as a smart card or token.
+%
+something you know
+
+An authentication factor indicating knowiedge. SUCh as a password or PIN,
+%
+somewhere you are
+
+An authentication factor indicating location, often using geolocation technologies.
+%
+spam
+
+Unwanted or unsolicited email. Attackers often launch attacks using spam.
+%
+spam filter
+
+A method of blocking unwanted email. By blocking email, it often blocks maiware.
+%
+spear phishing
+
+A targeted form of phishing. Spear phishing attacks attempt to target specific groups of users, such as those within a specific organization, or even a singie user.
+%
+split tunneI
+
+An encrypted connection used with VPNs. A split tunnel oniy encrypts traffic going to private iP addresses used in the private network Compare with full tunnel.
+%
+spyware
+
+Software installed on users' systems without their awareness or consent its purpose is often to monitor the user's computer and the user's activity.
+%
+SRTP
+
+Secure Real-time Transport Protocol. A protocol used to encrypt and provide authentication for Real-time Transport Protocol (RTP) traffic. RTP is used for audio/video streaming.
+%
+SSH
+
+Secure Shell. A protocol used to encrypt network traffic. SSH encrypts a wide variety of tramc such as SFTP. SSH uses TCP port 22.
+%
+SSlD
+
+Service set identifier. The name of a wireless network SSIDs can be set to broadcast so users can easily see it. Disabling SSID broadcast hides it from casual users.
+%
+SSL
+
+Secure Sockets Layer. The predecessor to TLS. SSL is used to encrypt data-in-transit with the use of certificates.
+%
+SSL decryptors
+
+Devices used to create separate SSL (or TLS) sessions They allow other security devices to examine encrypted traffic sent to and from the Internet.
+%
+SSL/TLS accelerators
+
+Devices used to handle TLS trafhc. Servers can off-ioad TLS traffic to improve performa nce.
+%
+SSO
+
+Single sign-on. An authentication method where users can access multiple resources on a network using a single account. 550 can provide central authentication.
+%
+standard operating procedures (SOPs)
+
+A document that provides step-by-step instructions on how to perform common tasks or routine operations.
+%
+stapling
+
+The process of appending a digitally signed OCSP response to a certificate. It reduces the overall OCSP traffic sent to a CA.
+%
+STARTTLS
+
+A command (not an acronym) used to upgrade an unencrypted connection to an encrypted connection on the same port.
+%
+steganography
+
+The practice of hiding data within data. For example, it's possible to embed text mes within an image, hiding them from casual users. It is one way to obscure data to hide it.
+%
+storage segmentation
+
+A method used to isolate data on mobile devices. It allows personal data to be stored in one location and encrypted corporate data to be stored elsewhere.
+%
+stored procedures
+
+A group of SQL statements that execute as a whole, similar to a mini-program. Developers use stored procedures to prevent SQL injection attacks.
+%
+STP
+
+Spanning Tree Protocol. A protocol enabled on most switches that protects against switching loops. A switching loop can be caused if two ports of a switch are connected.
+%
+stream cipher
+
+An encryption method that encrypts data as a stream of bits or bytes. Compare with block cipher.
+%
+substitution cipher
+
+An encryption method that replaces characters with other characters.
+%
+supply chain assessment
+
+An evaluation of the supply chain needed to produce and sell a product. it includes raw materials and all the processes required to create and distribute a finished product.
+%
+switch
+
+A network device used to connect devices. Layer 2 switches send traffic to ports based on their MAC addresses. Layer 3 switches send traffic to ports based on their IP addresses and support VLANs.
+%
+symmetric encryption
+
+A type of encryption using a single key to encrypt and decrypt data. Compare with asymmetric encryption.
+%
+system sprawl
+
+A vulnerability that occurs when an organization has more systems than it needs. and systems it owns are underutilized. Compare with VM sprawl.
+%
+tabletop exercise
+
+A discussion-based exercise where participants talk through an event while sitting at a table or in a conference room. It is often used to test business continuity plans.
+%
+TACACS+
+
+-Terminal Access Controller Access-Control System Plus. An authentication service that provides central authentication for remote access clients. It can be used as an alternative to RADIUS.
+%
+tailgating
+
+A social engineering attack where one person follows behind another person withoUt using credentials. Mantraps help prevent tailgating.
+%
+taps
+
+Monitoring ports on a network device. |DSs use taps to capture traffic.
+%
+tcpdump
+
+A command-line protocol analyzer. Administrators use it to capture packets.
+%
+technical controIs
+
+Security controls implemented through technology.
+%
+tethering
+
+The process of sharing an Internet connection from one mobile device to another.
+%
+thin AP
+
+An AP that is managed by a controller. Sometimes called a controller-based AP. Compare With fat AP.
+%
+third-party app store
+
+An app store other than the primary source for mobile device apps. it refers to an app store other than the App Store or Google Play for Apple and Android devices, respectively.
+%
+threat
+
+Any circumstance or event that has the potential to compromise confidentiality, integrity, or availability. Compare with risk and vulnerability.
+%
+threat assessment
+
+An evaluation of potential threats. Some common types of threat assessments are environmental, manmade, internal, and external.
+%
+time-of-day restrictions
+
+An account restriction that prevents users from logging on at certain times.
+%
+TKlP
+
+Temporal Key Integrity Protocol. A legacy wireless security protocol. CCMP is the recommended replacement.
+%
+TLS
+
+Transport Layer Security. The replacement for SSL. TLS is used to encrypt data-in-transit. Like SSL, it uses certificates issued by CA5.
+%
+token
+
+An authentication device or file. A hardware token is a physical device used in the something you have factor of authentication. A software token is a small tile used by authentication services indicating a user has logged on.
+%
+'l'O'l'P
+
+Time-based One-Time Password. An open source standard similar to HOTP. It uses a timestamp instead of a counter. One-time passwords created with TOTP expire after 30 seconds.
+%
+TPM (Trusted Platform Module)
+
+A hardware chip on the motherboard included with many |aptops and some mobile devices. It provides full disk encryption. Compare with HSM.
+%
+tracert
+
+A command-line tool used to trace the route between two systems.
+%
+transitive trust
+
+An indirect trust relationship created by two or more direct trust relationships.
+%
+Trojan
+
+Maiware also known as a Trojan horse. A Trojan often looks useful, but is malicious.
+%
+Crusted operating system
+
+An operating system that is configured to meet a set of securit)' requirements. It ensures that only authorized personnel can access data based on their permissions
+%
+Twofish
+
+A symmetric key block cipher. It encrypts data in 128-bit blocks and supports 128-. 192" or
+%
+256-bit keys
+
+Compare with Blowfish.
+%
+TYPE I hypervisors
+
+A virtualization technology. Type I hypervisors (or bare-metal hypervisors) run directly on the system hardware. They don't need to run within an operating system.
+%
+Type II hypervisors
+
+A virtualization technology. Type II hypervisors run as software within a host Operating system. The Microsoft Hyper-V hypervisor runs within a Microsoft operating system to host VMs.
+%
+typo squatting
+
+The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who inadvertently use the wrong domain name. Also called URL hijacking.
+%
+UAVs
+
+Unmanned aerial vehicles. Flying vehicles piloted by remote control or onboard computers.
+%
+UEFI
+
+Unified Extensible Firmware Interface. A method used to boot some systems and intended to replace Basic Input/Output System (BIOS) firmware.
+%
+URL hijacking
+
+The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who inadvertently use the wrong domain name. Also called typo squatting.
+%
+USB OTG
+
+Universal Serial Bus On-The-Go. A cable used to connect mobile devices to other devices. It is one of many methods that you can use to connect a mobile device to external media.
+%
+use case
+
+A methodology used in system analysis and software engineering to identify and clarify requirements to achieve a goal. For example, a use case of supporting confidentiality can help an organization identify the steps required to protect the confidentiality of data.
+%
+UTM
+
+Unified threat management. A group of security controls combined in a single solution. UTM appliances can inspect data streams for malicious content and block it.
+%
+VDI/VDE
+
+A virtual desktop infrastructure or virtual desktop environment. Users access a server hosting virtual desktops and run the desktop operating system from the server.
+%
+vendor diversity
+
+The practice of implementing security controls from different vendors to increase security. Compare with control diversity.
+%
+version controI
+
+A method of tracking changes to software as it is updated.
+%
+virtualization
+
+A technology that allows you to host multiple virtual machines on a single physical system. Different types include Type I, Type II, and application cell/container virtualization.
+%
+virus
+
+Malicious code that attaches itself to a host application. The host application must be executed to run, and the malicious code executes when the host application is executed.
+%
+VLAN
+
+Virtual local area network. A method of segmenting traffic. A VLAN logically groups several different computers together without regard to their physical location.
+%
+VM escape
+
+An attack that allows an attacker to access the host system from within a virtual machine. The primary protection is to keep hosts and guests up to date with current patches.
+%
+VM sprawl
+
+A vulnerability that occurs when an organization has many VMs that aren't properly managed. Unmanaged VMs are not kept up to date with current patches Compare with system sprawl.
+%
+data-in-transit
+
+Any data sent over a network. It's common to encrypt sensitive data-in-transit.
+%
+voice recognition
+
+A biometric method that identifies who is speaking using speech recognition methods to identify different acoustic features.
+%
+disassociation attack
+
+An attack that removes wireless clients from a wireless network.
+%
+VPN
+
+Vlrtual private network. A method that provides access to a private network over a public network such as the Internet. VPN concentrators are dedicated devices used to provide VPN access to large groups of users.
+%
+vulnerability
+
+A weakness. it can be a weakness in the hardware, the software, the configuration, or even the users operating the system. Compare with risk and threat.
+%
+vulnerability scanner
+
+A tool used to detect vulnera bilities. A scan typically identifies vulnerabilities. misconfigurations, and a lack of security controls. it passively tests security controls
+%
+warm site
+
+An alternate location for operations. A compromise between an expensive hot site and a cold site. Compare with cold site and hot site.
+%
+waterfaII
+
+A software development life cycle model using a top-down approach. It uses multiple stages with each stage starting after the previous stage is complete. Compare with agile.
+%
+watering hole attack
+
+An attack method that infects web sites that a group is likely to trust and visit.
+%
+wearable technology
+
+Smart devices that a person can wear or have implanted.
+%
+web application firewall
+
+(WAFi-A firewall specifically designed to protect a web application. such as a web server. A WAF inspects the contents of traffic to a web server and can detect malicious content, such as code used in a cross-scripting attack, and block it
+%
+whaling
+
+A form of spear phishing that attempts to target high-ievei executives. When successful. attackers gain confidential company information that they might not be able to get anywhere else.
+%
+white box test
+
+A type of penetration test. Testers have full knowledge of the environment prior to starting the test. Compare with black box test and gray box test.
+%
+Wi-Fi Direct
+
+A standard that allows devices to connect without a wireless access point.
+%
+wildcard certificate
+
+A certificate that can be used for multiple domains with the same root domain. It starts with an asterisk.
+%
+wiping
+
+The process of completely removing all remnants of data on a disk. A bit-levei overwrite writes patterns of is and Os multiple times to ensure data on a disk is unreadable.
+%
+wireless scanners
+
+A network scanner that scans wireless frequency bands. Scanners can help discover rogue APs and crack passwords used by wireless APs.
+%
+worm
+
+SeIf-replicating malware that travels through a network. Worms do not need user interaction to execute.
+%
+WPA
+
+Wi-Fi Protected Access. A |egacy wireless security protocol. It has been superseded by WPA2.
+%
+WPAZ
+
+Wi-Fi Protected Access II. A wireless security protocol. It supports CCMP for encryption, which is based on AES. It can use Open mode, a pre-shared key, or Enterprise mode.
+%
+WPS
+
+Wi-Fi Protected Setup. A method that allows users to easily configure a wireless network, often by using only a PIN. WPS brute force attacks can discover the PIN.
+%
+WPS attack
+
+An attack against an AP. A WPS attack discovers the eight-digit WPS PIN and uses it to discover the AP passphrase.
+%
+XML (Extensible Markup Language)
+
+A language used by many databases for inputting or exporting data. XML uses formatting rules to describe the data.
+%
+XOR
+
+A logical operation used in some encryption schemes. XOR operations compare two inputs. If the two inputs are the same, it outputs True. If the two inputs are different, it outputs False.
+%
+zero-day vulnerability
+
+A vulnerability or bug that is unknown to trusted sources but can be exploited by attackers. Zero-day attacks take advantage of zero-day vulnerabilities.
+%
+ESP (Encapsulating Security Payload)
+
+An option within IPsec to provide confidentiality, integrity, and authentication.
+%
+

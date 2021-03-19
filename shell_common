@@ -21,9 +21,9 @@ smiley() {
     ret_val=$?
     if [ "$ret_val" = "0" ]
     then
-        echo ":)"
+        echo "😈"
     else
-        echo ":( ($ret_val)"
+        echo "👿 ($ret_val)"
     fi
 }
 
@@ -59,4 +59,4 @@ function notif-terminal-generic {
 }
 
 #### rainbow fortune
-fortune -s | cowsay -f stegosaurus | lolcat
+fortune SY0_501.fortune | cowsay -f stegosaurus | lolcat
