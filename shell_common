@@ -4,7 +4,10 @@
 # cowsay
 # figlet
 # terminal-notifier (brew)
-# git-completion (brew)
+# mdv
+# DEPRECATED git-completion (brew)
+#
+# simlink fortune and .dat files in /usr/local/share/games/fortunes/
 
 #### Editor etc
 export EDITOR='vim'
