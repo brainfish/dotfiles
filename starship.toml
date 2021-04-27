@@ -24,6 +24,7 @@ format = "[$path]($style)[$read_only]($read_only_style) "
 
 #### Symbols
 [aws]
+disabled = true
 symbol = " "
 
 [conda]
@@ -72,6 +73,7 @@ symbol = " "
 symbol = " "
 
 [nodejs]
+disabled = true
 symbol = " "
 
 [package]
@@ -84,6 +86,7 @@ symbol = " "
 symbol = " "
 
 [python]
+format = 'via [${symbol}${pyenv_prefix}($virtualenv)]($style)'
 symbol = " "
 
 [ruby]
