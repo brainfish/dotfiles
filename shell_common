@@ -62,8 +62,8 @@ function notif-terminal-generic {
 }
 
 #### rainbow fortune
-[[ -z "${NO_DINOSAUR}" ]] && fortune SY0_501.fortune | cowsay -f stegosaurus | lolcat
-#echo "Fix fortune. Soon." | cowsay -f stegosaurus | lolcat
+FORTUNE_FILE="${DINO_FORTUNE_FILE:-$HOME/code/dotfiles/fortunes/SY0_501.fortune}"
+[[ -z "${NO_DINOSAUR}" ]] && fortune $FORTUNE_FILE | cowsay -f stegosaurus | lolcat
 #fortune -s | cowsay -f stegosaurus | lolcat
 
 #### personal MOTD
