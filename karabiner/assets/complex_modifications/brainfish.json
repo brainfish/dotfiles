@@ -1,0 +1,30 @@
+{
+  "title": "TAB to CTRL",
+  "rules": [
+    {
+      "description": "TAB : CTRL or TAB (If Alone)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "modifiers": []
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "tab"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
