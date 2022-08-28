@@ -23,3 +23,6 @@ source "${GITAWAREPROMPT}/main.sh"
 
 # See git-aware-prompt/colors.sh or https://github.com/jimeh/git-aware-prompt for color help
 export PS1="\[$txtrst\]\u@ \$(smiley) \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\] \w\e[0m\n\$ "
+
+# SpicyLemon's git_diff_explorer
+source $SCRIPT_SOURCE/shell_commands/git_diff_explorer.sh

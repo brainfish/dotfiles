@@ -1,4 +1,5 @@
 # dotfiles
+# Now with SpicyLemon's git_diff_explorer!
 
 ## Set up git identity, editor and global gitignore
 ```
