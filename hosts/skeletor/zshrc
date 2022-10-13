@@ -1,0 +1,20 @@
+#export NO_DINOSAUR=1
+NO_DINOSAUR=1 source ~/code/dotfiles/zshrc
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
+
+function set_win_title(){
+    echo -ne "\033]0; $(basename $PWD) \007"
+}
+precmd_functions+=(set_win_title)
+eval "$(starship init zsh)"
+
+# SKELETOR!
+echo
+less -ER --no-init ~/skeletor-laugh2.ans
+fortune ~/code/dotfiles/fortunes/skeletor | lolcat
