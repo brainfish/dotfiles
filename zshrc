@@ -4,4 +4,4 @@ SCRIPT_SOURCE=${0%/*}
 source $SCRIPT_SOURCE/shell_common
 
 #### oh-my-zsh setup
-plugins=(git catimg osx)
+plugins=(git catimg)
