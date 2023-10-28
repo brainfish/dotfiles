@@ -42,20 +42,23 @@ function bigbanner {
   echo "##### $@"
   echo "########################################################################"
   echo "########################################################################"
-  echo ""
 }
 alias bb='bigbanner'
 function bbb {
   bigbanner $@ | lolcat
+  echo ""
 }
 function bbd {
-  bigbanner $@ | cowsay -f dragon | lolcat
+  bigbanner $@ | cowsay -f dragon -n | lolcat
 }
 function BBB {
   echo $@ | figlet -f jazmine | lolcat
 }
+function BBD {
+  echo $@ | figlet | cowsay -f dragon -n | lolcat
+}
 function notif-tableflip {
-  terminal-notifier -title "$1" -message "$2" -contentImage ${DIR}/images/tableflip_trans_400x400.png -activate com.apple.Terminal
+  terminal-notifier -title "$1" -message "$2" -contentImage ${BRAINFISH_SCRIPT_SOURCE}/images/tableflip_trans_400x400.png -activate com.apple.Terminal
 }
 function notif-terminal-generic {
   terminal-notifier -title "$1" -message "$2" -activate com.apple.Terminal
