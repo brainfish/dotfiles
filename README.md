@@ -17,7 +17,7 @@ git config --global core.editor vim
 ~/.config/karabiner/ -> karabiner/
 
 ## brew packages
-brew install zsh asdf fortune lolcat cowsay figlet terminal-notifier mdv starship
+brew install zsh asdf fortune lolcat cowsay figlet terminal-notifier mdv starship jq
 brew install pyenv pyenv-virtualenv direnv
 
 ## install oh-my-zsh
