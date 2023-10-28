@@ -27,3 +27,6 @@ Temporary Items
 
 # VIM
 *.swp
+
+# PyENV
+.python-version
